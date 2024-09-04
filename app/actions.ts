@@ -230,11 +230,11 @@ export async function CreateSubscription() {
     },
     success_url:
       process.env.NODE_ENV === "production"
-        ? "https://CloudChronicles.vercel.app/dashboard/payment/success"
+        ? "https://cloudchronicles.vercel.app/dashboard/payment/success"
         : "http://localhost:3000/dashboard/payment/success",
     cancel_url:
       process.env.NODE_ENV === "production"
-        ? "https://CloudChronicles.vercel.app/dashboard/payment/cancelled"
+        ? "https://cloudchronicles.vercel.app/dashboard/payment/cancelled"
         : "http://localhost:3000/dashboard/payment/cancelled",
   });
 

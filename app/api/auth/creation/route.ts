@@ -31,7 +31,7 @@ export async function GET() {
 
   return NextResponse.redirect(
     process.env.NODE_ENV === "production"
-      ? "https://CloudChronicles.vercel.app/dasboard"
+      ? "https://cloudchronicles.vercel.app/dasboard"
       : "http://localhost:3000/dashboard"
   );
 }
