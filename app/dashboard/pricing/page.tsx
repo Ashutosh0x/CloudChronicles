@@ -41,7 +41,7 @@ export default async function PricingPage() {
       customer: data?.User?.customerId as string,
       return_url:
         process.env.NODE_ENV === "production"
-          ? "https://cloudchronicles.vercel.app/dashboard"
+          ? "https://cloud.ashutoshdev.me/dashboard"
           : "http://localhost:3000/dashboard",
     });
 
